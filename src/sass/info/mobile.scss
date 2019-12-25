@@ -1,0 +1,299 @@
+& {
+  .partners-list {
+    display: block;
+
+    .li {
+      display: inline-block;
+      margin-right: 20px;
+      line-height: 3;
+
+      &:last-child {
+        //        margin-right: 20px;
+      }
+    }
+  }
+
+  .mob-btn {
+    display: block;
+    float: right;
+  }
+
+  nav {
+    padding: 10px 0;
+    background-color: #f4dd38;
+  }
+
+  header,
+  main,
+  footer {
+    overflow: hidden;
+  }
+
+  .logo {
+    display: inline-block;
+  }
+
+  .menu {
+    margin-top: 30px;
+    display: none;
+    text-align: center;
+
+    li {
+      display: block;
+      margin-bottom: 20px;
+
+      a {
+        display: block;
+      }
+    }
+  }
+
+  br {
+    display: none;
+  }
+
+  .header-item {
+    h1 {
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .play-btn {
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .btn-group {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .header-img {
+    margin-top: 40px;
+    text-align: center;
+
+    img {
+      max-height: 35vh;
+    }
+  }
+
+  .bonus {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 45px 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .bonus-img {
+    text-align: center;
+
+    img {
+      max-height: 25vh;
+    }
+  }
+
+  .bonus-item {
+    text-align: center;
+
+    .title {
+      font-size: 18px;
+      margin-bottom: 15px;
+      margin-top: 25px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .order-btn {
+    padding: 19px 30px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .h2-title {
+    font-size: 26px;
+    line-height: 1;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .benefits-item {
+    text-align: center;
+    //    margin-top: 35px;
+    margin-bottom: 35px;
+
+    .img {
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .title {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .benefits {
+    padding-bottom: 60px;
+  }
+
+  .about {
+    padding: 60px 0;
+  }
+
+  .h2-subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .about-item {
+    margin-bottom: 45px;
+    .img {
+      margin-bottom: 10px;
+    }
+  }
+
+  .partners {
+    padding: 60px 0;
+  }
+
+  .partners + .bonus {
+    margin-top: 0;
+  }
+
+  .xs-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  .section_1 {
+    padding: 60px 0;
+  }
+
+  .section_1 .h2-title {
+    margin-bottom: 30px;
+  }
+
+  .section_1-item {
+    margin-bottom: 45px;
+  }
+
+  .cabinet {
+    padding-top: 60px;
+  }
+
+  .cabinet .h2-title {
+    margin-bottom: 30px;
+  }
+
+  .cabinet-list {
+    margin-top: 30px;
+
+    li p {
+      text-align: center;
+          max-width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  }
+
+  .cabinet-list li div img {
+    margin-bottom: 15px;
+  }
+
+  .cabinet-img img {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .cabinet-img {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .reviews_one-carousel {
+    margin-top: 70px;
+  }
+
+  .reviews_one-item {
+    padding: 44px 25px 25px;
+    min-height: inherit;
+  }
+
+  .reviews_two-item {
+    padding: 35px 25px;
+    min-height: inherit;
+    p {
+      font-size: 14px;
+    }
+  }
+  .reviews {
+    padding-bottom: 60px;
+  }
+  .faq {
+    padding: 60px 0;
+  }
+  .faq .h2-title {
+    margin-bottom: 30px;
+  }
+  .faq-item {
+    padding: 30px 20px;
+    .title {
+      font-size: 18px;
+    }
+    .more {
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+  
+  .contacts {
+    min-height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 15px 40px;
+    text-align: center;
+  }
+  .footer {
+    text-align: center;
+    padding: 50px 0;
+  }
+  .footer-list {
+    margin: 35px 0;
+    li {
+      margin-bottom: 15px;
+    }
+  }
+  .fancybox-content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .container, .section_1 .container, .bonus {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contacts p {
+    max-width: 281px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-list li {
+    display: block;
+  }
+}
