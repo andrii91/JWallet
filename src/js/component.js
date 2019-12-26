@@ -20,7 +20,7 @@ $(document).ready(function () {
   if ($(window).width() < 1200) {
     $('.partners-list, .header-logo').addClass('marquee');
     $('.marquee').marquee({
-      duration: 15000,
+      duration: 7500,
       startVisible: true,
       duplicated: true
     });

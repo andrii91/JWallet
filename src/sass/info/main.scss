@@ -750,6 +750,19 @@ background-color: #ffffff;
   border-top: 1px solid #3d3645;
   padding: 33px 0;
   background-color: #25212a;
+  .logo {
+    svg {
+      transition: .2s;
+      &:hover {
+        fill: #fff;
+        .st0 {
+      transition: .2s;
+        fill: #fff;
+          
+        }
+      }
+    }
+  }
 }
 
 .logo-rezart {
@@ -779,6 +792,10 @@ background-color: #ffffff;
       font-size: 16px;
       font-weight: 400;
       line-height: 1;
+      transition: .3s;
+      &:hover {
+        color: #fff;
+      }
     }
   }
 }

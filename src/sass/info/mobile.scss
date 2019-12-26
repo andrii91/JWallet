@@ -72,6 +72,11 @@
   .btn-group {
     text-align: center;
     margin-top: 30px;
+    a {
+      text-align: center;
+      max-width: 269px;
+      width: 100%;
+    }
   }
 
   .header-img {
@@ -157,7 +162,7 @@
 
   .h2-subtitle {
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
   }
 
   .about-item {
@@ -227,6 +232,10 @@
 
   .reviews_one-carousel {
     margin-top: 70px;
+        margin-bottom: 140px;
+    .owl-dots {
+      bottom: -85px;
+    }
   }
 
   .reviews_one-item {
@@ -298,5 +307,18 @@
   }
   .cabinet-list li div {
     padding-left: 15px;
+  }
+  .br {
+    display: block;
+  }
+  .owl-prev {
+    position: absolute;
+    top: 100%;
+    left: -15px;
+  }
+  .owl-next {
+    position: absolute;
+    top: 100%;
+    right: -15px;
   }
 }
